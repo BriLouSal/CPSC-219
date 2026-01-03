@@ -34,6 +34,7 @@ public class bmi_calc {
 
         
         ask_weight.close();
+        ask_heightScanner.close();
 
     }
     
