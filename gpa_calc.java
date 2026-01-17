@@ -8,7 +8,10 @@ public class gpa_calc {
         // We Wanne use Double as it's more precise. Although it takes tolls on the memory
         Integer gpa = user_input.nextInt();
         String letter = "";
+        // Long Long, Int, Double, Long (Integers)
+
         // Use Grading Scale of CPSC 217
+
 
         if(gpa <= 100 && gpa >= 97  ){
             letter = "A+";
@@ -48,7 +51,7 @@ public class gpa_calc {
              letter = "F";
         }
 
-        System.out.println("Your grade is: " + gpa + "Therefore, You've earned the Letter grade: " + letter);
+        System.out.println("Your grade is: \n" + gpa + "Therefore, You've earned the Letter grade: " + letter);
 
 
         user_input.close();
